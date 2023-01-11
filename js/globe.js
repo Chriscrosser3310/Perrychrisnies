@@ -56,6 +56,8 @@ let initGlobe = () => {
     globe.addMarker(42.6526, -73.7562, 'Albany', true);
     //globe.addMarker(38.9072, -77.0369, 'D.C.', true);
     globe.addMarker(39.2904, -76.6122, 'Baltimore', true);
+    globe.addMarker(40.7831, -73.9712, 'Manhattan', true);
+    globe.addMarker(37.7749, -122.4194, 'San Francisco', true);
 }
 window.addEventListener('resize', () => {
     let h = window.innerHeight - (main.clientTop + main.clientHeight);
